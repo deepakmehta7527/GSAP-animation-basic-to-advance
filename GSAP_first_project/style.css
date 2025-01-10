@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box; /* Ensures padding and borders are included within element width/height. */
+  margin: 0; /* Removes default margin. */
+  padding: 0; /* Removes default padding. */
+  font-family: "Gilroy"; /* Sets the font family for all elements. */
+}
+
+html, body {
+  height: 100%; /* Ensures the page takes up full height. */
+  width: 100%; /* Ensures the page takes up full width. */
+  color: aliceblue; /* Sets a light blue text color for all elements. */
+}
+
+
+#main {
+  height: 100%; /* Fills the entire viewport height. */
+  width: 100%; /* Fills the entire viewport width. */
+  background-color: rgb(27, 26, 26); /* Dark background for contrast. */
+}
+
+
+
+#nav {
+  display: flex; /* Enables flexbox for layout. */
+  justify-content: space-between; /* Spreads elements to opposite edges. */
+  height: 60px; /* Sets navigation bar height. */
+  padding: 0 60px; /* Adds horizontal padding to the bar. */
+  align-items: center; /* Centers items vertically within the bar. */
+}
+
+#nav-part2 {
+  display: flex; /* Enables flexbox for the additional navigation links. */
+  gap: 50px; /* Adds space between each link in `#nav-part2`. */
+}
+
+#nav h3 {
+  font-size: 25px; /* Sets font size for navigation text. */
+  text-transform: uppercase; /* Converts text to uppercase. */
+  font-weight: 400; /* Normal font weight for clean look. */
+}
+
+
+#main h1 {
+  position: relative; /* Ensures positioning relative to the nearest container. */
+  z-index: 1; /* Ensures `h1` elements appear above other elements (like images). */
+  font-size: 150px; /* Large font size for impactful headings. */
+  text-transform: uppercase; /* Converts text to uppercase. */
+  font-weight: 400; /* Normal font weight for clean typography. */
+  line-height: 120px; /* Spacing between lines in the heading. */
+  width: 80%; /* Occupies 80% of the width. */
+  margin-left: 10%; /* Centers text horizontally (remaining 20% split equally). */
+}
+
+#main h1:nth-child(2) {
+  margin-top: 120px; /* Adds spacing above the second heading. */
+}
+
+#main h1:nth-child(3),
+#main h1:nth-child(4) {
+  text-align: center; /* Centers the third and fourth headings horizontally. */
+}
+
+
+img {
+  height: 400px; /* Sets image height. */
+  width: 20%; /* Sets image width to 20% of the container. */
+  position: absolute; /* Positions images relative to the parent container. */
+  top: 10%; /* Positions the image 10% from the top of the container. */
+  left: 40%; /* Positions the image 40% from the left, centering it roughly. */
+}
+
+#img1 {
+  rotate: 20deg; /* Rotates the first image by 20 degrees. */
+}
+
+#img2 {
+  rotate: 10deg; /* Rotates the second image by 10 degrees. */
+}
+
+#img3 {
+  rotate: 5deg; /* Rotates the third image by 5 degrees. */
+}

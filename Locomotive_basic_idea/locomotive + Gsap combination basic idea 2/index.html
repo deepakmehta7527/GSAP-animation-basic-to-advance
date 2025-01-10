@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set character encoding to UTF-8 to support various characters -->
+    <meta charset="UTF-8" />
+
+    <!-- Set viewport to scale properly on different devices (responsive design) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title of the page that will appear in the browser tab -->
+    <title>Document</title>
+
+    <!-- Link to external CSS file that contains styling for the page -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Link to an external CSS file for the Locomotive Scroll library (for scroll animations) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+  </head>
+  <body>
+    <!-- Main wrapper div that contains the entire content of the page -->
+    <div id="main">
+
+      <!-- First page section -->
+      <div id="page1">
+        <!-- Box element inside the first page -->
+        <div id="box"></div>
+      </div>
+
+      <!-- Second page section -->
+      <div id="page2">
+        <!-- Box element inside the second page -->
+        <div id="box"></div>
+      </div>
+
+      <!-- Third page section -->
+      <div id="page3">
+        <!-- Box element inside the third page -->
+        <div id="box"></div>
+      </div>
+
+    </div>
+
+    <!-- Locomotive Scroll JavaScript library to add smooth scroll effects -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+    <!-- GSAP JavaScript library for animations -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- GSAP ScrollTrigger plugin to trigger animations on scroll -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Link to external JavaScript file (script.js) for custom JS logic -->
+    <script src="script.js"></script>
+  </body>
+</html>

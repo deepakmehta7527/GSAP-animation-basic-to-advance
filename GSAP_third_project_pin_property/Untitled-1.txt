@@ -1,0 +1,13 @@
+1)transform:- it used to translatex(-50%)  it used to subtract value
+2)pin->jab aap `pin` ka use krte ho tab aapko  `scrollTrigger" Parent ko krna hai bas aur
+  //benefit use of pin
+  a)pin krne pe top se scroll down hota rahega aur "jaise hi " top se "-100px" hoga waise hi animation bnd ho jayega
+  b)important point yaha "top" se "-100px" di gayi hai eska matlab ye abi screen se bahar hai aur jaise hi scroll down
+   khatam hota hai "top" zero se tho ye "top" -100px pe chal jayega
+
+   c)jab aapne top se "-100px" diya eska matlab jab aap pin krte ho tho "parent" ke uppar jo koi aur parent hai woh move krtha hai as
+   animation aur jab woh move krthe krthe "top" se "-100%" pe pahuch jayega tab "jispe trigger lagaya huwa hai woh hat
+   jayega"
+
+   d)pin : true "kar dena hai jisse ye uss parent pe kaam karega jab tak image completely "animation" na ho jayega
+   aur ye according to "start" and "end" postion ke according kaam krta hai

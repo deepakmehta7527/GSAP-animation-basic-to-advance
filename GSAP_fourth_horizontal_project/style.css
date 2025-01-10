@@ -1,0 +1,46 @@
+/* Apply a universal rule to all elements on the page */
+* {
+  box-sizing: border-box; /* Ensures that padding and border are included in the element's total width and height */
+  margin: 0; /* Removes default margin on all elements */
+  padding: 0; /* Removes default padding on all elements */
+  font-family: sans-serif; /* Applies a sans-serif font to all elements */
+}
+
+/* Set the basic styling for the html and body to ensure they occupy the full viewport height */
+html, body {
+  height: 100%; /* Ensures the html and body elements take up the full height of the viewport */
+  width: 100%; /* Ensures the html and body elements take up the full width of the viewport */
+}
+
+/* Styles for the first full-screen page section */
+#page1 {
+  height: 100%; /* Ensures page1 occupies the full height of the viewport */
+  width: 100%; /* Ensures page1 occupies the full width of the viewport */
+  background-color: lightblue; /* Sets the background color of page1 to light blue */
+}
+
+/* Styles for the second full-screen page section */
+#page2 {
+  height: 100%; /* Ensures page2 occupies the full height of the viewport */
+  width: 100%; /* Ensures page2 occupies the full width of the viewport */
+  background-color: rgb(5, 5, 5); /* Sets the background color of page2 to a very dark gray */
+}
+
+/* Styles for the third full-screen page section */
+#page3 {
+  height: 100%; /* Ensures page3 occupies the full height of the viewport */
+  width: 100%; /* Ensures page3 occupies the full width of the viewport */
+  background-color: rgb(8, 67, 86); /* Sets the background color of page3 to a shade of teal */
+}
+
+/* Styles for the <h1> element inside the #page2 section */
+#page2 h1 {
+  font-size: 45vw; /* Sets the font size of the <h1> element to 45% of the viewport width (making it responsive to screen size) */
+  font-weight: 600; /* Sets the font weight of the <h1> element to a bold value (600) */
+  color: rgb(42, 41, 41); /* Sets the text color of the <h1> element to a dark gray */
+}
+
+/* Prevent horizontal scrolling by hiding overflow on the x-axis */
+body {
+  overflow-x: hidden; /* Hides any content that overflows horizontally, preventing horizontal scrolling */
+}

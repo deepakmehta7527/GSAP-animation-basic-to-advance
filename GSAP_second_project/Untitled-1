@@ -1,0 +1,26 @@
+//first cdn gsap //second cdn "scroll trigger" used link in index.html ####most
+important point### ->jab scroller start top se jo diya hai 60% jab woh page ke
+start ke saat overlap hota hai tab trigger chalne lgta hai
+
+
+//ScrollTrigger->it
+used when you scroll then start working
+
+//trigger->"yaha pe define ki jati hai
+kha pe apply krna trigger"
+
+
+//markers->"ye `true` krne pe display hota hai ki kha
+`starting` aur `ending point" hai visual hota hai jisse hum decission le skte
+hai aur `starting` and `ending` point change kr skte hai " //scroller-> 'ye help
+skrta hai trigger kha hona chahiye mostly `body` script select krte hai'
+
+
+//`start aur end` position de skte hai jaise `top` aur `end` se 60% aur 30% etc
+
+
+
+//scrub->yaha pe true,1 ja 2 de kar speed smooth kr skte hai jitna jyada denge
+uthna smooth hoga jab hum scroll down krege tab ####important### jab `scrub` use
+krte hai tho 'end' jab wapas jane lagta hai 'start' ke pass tho `again work `
+krtha hai

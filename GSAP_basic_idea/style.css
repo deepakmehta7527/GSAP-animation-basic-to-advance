@@ -1,0 +1,50 @@
+/*
+Universal Reset: Applies to all elements (*)
+- Removes default margin and padding
+- Sets `box-sizing: border-box` so padding and borders are included in the element's total width/height
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+HTML and Body Styles:
+- Ensures the document occupies the full height and width of the viewport
+*/
+html,
+body {
+  height: 100%; /* Full viewport height */
+  width: 100%;  /* Full viewport width */
+}
+
+/*
+Styling for #box1:
+- Creates a red square box
+*/
+#box1 {
+  height: 100px;           /* Height of the box is 100px */
+  width: 100px;            /* Width of the box is 100px */
+  background-color: red;   /* Background color of the box is red */
+}
+
+/*
+Styling for #box2:
+- Creates a blue square box
+*/
+#box2 {
+  height: 100px;           /* Height of the box is 100px */
+  width: 100px;            /* Width of the box is 100px */
+  background-color: blue;  /* Background color of the box is blue */
+}
+
+/*
+Styling for #box3:
+- Creates a yellow square box
+*/
+#box3 {
+  height: 100px;           /* Height of the box is 100px */
+  width: 100px;            /* Width of the box is 100px */
+  background-color: yellow; /* Background color of the box is yellow */
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /> <!-- Specifies the character encoding for the document as UTF-8 -->
+
+    <!-- Meta tag to set viewport properties for responsive web design.
+         Ensures that the page scales correctly on different screen sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title> <!-- Sets the title of the webpage that appears in the browser tab -->
+
+    <!-- Linking to an external CSS file for styling the page -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Including the Locomotive Scroll CSS file for styling the smooth scroll library -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+  </head>
+
+  <body>
+    <!-- Main container for all the sections -->
+    <div id="main">
+
+      <!-- Page 1: A section that could be styled in the CSS to fill the screen -->
+      <div id="page1"></div>
+
+      <!-- Page 2: A section containing an image with scroll effect -->
+      <div id="page2">
+        <!-- Container for the image with scroll-based effect -->
+        <div id="image-div">
+          <!-- Image with Locomotive Scroll data attributes to create a scroll effect -->
+          <img
+            data-scroll  <!-- This attribute enables the scroll effect on the image -->
+            data-scroll-speed="5"  <!-- Controls the scroll speed of the image (larger values make the image scroll slower) -->
+            src="https://images.unsplash.com/photo-1734366965586-dc4155c0b9b7?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""  <!-- Image source URL and empty alt attribute (should ideally have alt text for accessibility) -->
+          />
+        </div>
+      </div>
+
+      <!-- Page 3: Another section that can be styled similarly to page 1 -->
+      <div id="page3"></div>
+    </div>
+
+    <!-- Including the Locomotive Scroll JavaScript library to enable smooth scrolling -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+    <!-- External script file (script.js) where custom JavaScript functionality is defined -->
+    <script src="script.js"></script>
+  </body>
+</html>

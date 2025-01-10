@@ -1,0 +1,61 @@
+/* Universal selector to reset margin, padding, and set box-sizing */
+* {
+  box-sizing: border-box;  /* Ensures padding and border are included in the element's total width and height */
+  margin: 0;               /* Removes default margin from all elements */
+  padding: 0;              /* Removes default padding from all elements */
+  font-family: sans-serif; /* Sets a default sans-serif font for the whole page */
+}
+
+/* Ensures html and body elements fill the full viewport height and width */
+html,
+body {
+  height: 100%;  /* Makes the html and body elements take up the full height of the viewport */
+  width: 100%;   /* Makes the html and body elements take up the full width of the viewport */
+}
+
+/* Style for page1 */
+#page1 {
+  height: 100%;            /* Makes the page1 take up the full height of the viewport */
+  width: 100%;             /* Makes the page1 take up the full width of the viewport */
+  background-color: purple; /* Sets the background color of page1 to purple */
+
+  /* Flexbox to center the content within #page1 */
+  display: flex;              /* Uses flexbox layout */
+  align-items: center;        /* Vertically centers the content within #page1 */
+  justify-content: center;    /* Horizontally centers the content within #page1 */
+}
+
+/* Style for page2 */
+#page2 {
+  height: 100%;            /* Makes the page2 take up the full height of the viewport */
+  width: 100%;             /* Makes the page2 take up the full width of the viewport */
+  background-color: aqua;  /* Sets the background color of page2 to aqua */
+
+  /* Flexbox to center the content within #page2 */
+  display: flex;              /* Uses flexbox layout */
+  align-items: center;        /* Vertically centers the content within #page2 */
+  justify-content: center;    /* Horizontally centers the content within #page2 */
+}
+
+/* Style for page3 */
+#page3 {
+  height: 100%;            /* Makes the page3 take up the full height of the viewport */
+  width: 100%;             /* Makes the page3 take up the full width of the viewport */
+  background-color: blueviolet; /* Sets the background color of page3 to blueviolet */
+
+  /* Flexbox to center the content within #page3 */
+  display: flex;              /* Uses flexbox layout */
+  align-items: center;        /* Vertically centers the content within #page3 */
+  justify-content: center;    /* Horizontally centers the content within #page3 */
+}
+
+/* Style for the circle element */
+#circle {
+  height: 300px;                     /* Sets the height of the circle to 300px */
+  width: 300px;                      /* Sets the width of the circle to 300px */
+
+  /* Gradient background for the circle */
+  background: linear-gradient(rgb(238, 82, 82), rgb(224, 111, 224), rgb(71, 39, 39));
+  /* Creates a circular shape by setting border-radius to 50% */
+  border-radius: 50%;                /* Makes the element a circle */
+}

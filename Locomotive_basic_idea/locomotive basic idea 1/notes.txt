@@ -1,0 +1,23 @@
+Q1 what is locomotive
+ans:-Locomotive Scroll is a popular JavaScript library used to create smooth scrolling effects on websites. It enables a more natural, fluid scrolling experience compared to the standard browser scroll, offering advanced features like parallax scrolling, scroll-based animations, and custom scroll behavior.
+
+The library is often used for modern websites that want a more interactive and visually engaging experience by providing enhanced control over scroll animations and effects.
+
+Q2 let know how to use locomotive
+step 1: try to put everything in parent #main div in html
+like:- <div #main><div .page1></div></div>
+and don't try to give any size of parent #main
+
+step2:-search "locomotive js cdn" on google open file first click "(a)locomotive-scroll.js" then
+it will open on new file and copy there url and in "js" file "script" inside paste that url...
+now same above procedure follow below only "url copy" and paste in header "style" css inside
+(b)locomotive-scroll.css
+
+step3:-now search "locomotive js github.com" and open first link of github and scroll down you will see "smooth" little bit "scroll down" and now you will have to copy "const scroll" code except import and paste inside "javascript" file but little bit change now "you have to remove default value inside
+"querySelector" and use "#main" or whatever you have given as parent name that you have to write inside "querySelector"
+
+step4:- "locomotive js github.com" site when you scroll down you will see
+"Element attributes" there is written which one you should use and how should you use
+example:- we have use  "data-scroll" and "data-scroll-speed=0.2" in img tag inside
+Q3 what kind of fault you can face?
+1)we don't give any size of "main" parent so when we give size of child height as "%" then it doesn't work so we give "vh" then it work

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Define the character encoding for the document -->
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Set the viewport to ensure the page scales correctly on different devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title> <!-- Title of the webpage, shown in the browser tab -->
+    <!-- Link to an external stylesheet for styling the page -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- First full-screen section (page1) with a circle inside it -->
+    <div id="page1">
+      <div id="circle"></div> <!-- Circle element inside page1 -->
+    </div>
+
+    <!-- Second full-screen section (page2) with a circle inside it -->
+    <div id="page2">
+      <div id="circle"></div> <!-- Circle element inside page2 -->
+    </div>
+
+    <!-- Third full-screen section (page3) with a circle inside it -->
+    <div id="page3">
+      <div id="circle"></div> <!-- Circle element inside page3 -->
+    </div>
+
+    <!-- Load the GSAP (GreenSock Animation Platform) library for animations -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Load GSAP ScrollTrigger plugin for scroll-based animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+            integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"></script>
+
+    <!-- Link to an external JavaScript file for handling the animations -->
+    <script src="script.js"></script>
+  </body>
+</html>

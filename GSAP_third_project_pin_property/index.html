@@ -1,0 +1,45 @@
+<!DOCTYPE html> <!-- Declares the document type as HTML5 -->
+<html lang="en"> <!-- Starts the HTML document and specifies that the language is English -->
+
+  <head>
+    <meta charset="UTF-8" /> <!-- Specifies the character encoding for the document as UTF-8, ensuring special characters are correctly rendered -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Ensures the webpage is responsive, adjusting for different screen sizes (for mobile and tablet) -->
+    <title>Document</title> <!-- Sets the title of the webpage, which will be shown in the browser tab -->
+
+    <link rel="stylesheet" href="style.css" /> <!-- Links to an external CSS file (style.css) for styling the page -->
+  </head>
+
+  <body>
+    <!-- Page 1 section -->
+    <div id="page1"></div> <!-- This is an empty div for the first page section -->
+
+    <!-- Page 2 section -->
+    <div id="page2">
+      <img
+        src="https://images.unsplash.com/photo-1527221579996-0de6d1ae2069?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGlza2NvbiUyMGxvcmQlMjBrcmlzaG5hfGVufDB8fDB8fHww"
+        alt="" /> <!-- An image element, where the source (src) is a URL to an image hosted on Unsplash. The alt attribute is left empty, which means there's no alternative text provided -->
+    </div>
+
+    <!-- Page 3 section -->
+    <div id="page3"></div> <!-- This is another empty div for the third page section -->
+
+    <!-- Load GSAP (GreenSock Animation Platform) JavaScript library -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer">
+    </script> <!-- This script loads the GSAP library, which is used for animations on the page -->
+
+    <!-- Load GSAP ScrollTrigger plugin -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer">
+    </script> <!-- This script loads the ScrollTrigger plugin, which allows animations to be triggered based on scroll position -->
+
+    <script src="script.js"></script> <!-- Links to an external JavaScript file (script.js) which will contain the functionality and animations for the page -->
+  </body>
+
+</html>

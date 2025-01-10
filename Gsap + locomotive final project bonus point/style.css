@@ -1,0 +1,48 @@
+/* Resetting default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding and border are included in element's total width/height */
+}
+
+/* Setting up default styles for the HTML and body */
+html,
+body {
+  height: 100%; /* Full viewport height */
+  width: 100%;  /* Full viewport width */
+  font-family: sans-serif; /* Default font for the document */
+}
+
+/* Styling for the first page section (#page1) */
+#page1 {
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full viewport width */
+  background-color: rgb(28, 23, 23); /* Dark background color */
+}
+
+/* Styling for the second page section (#page2) */
+#page2 {
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full viewport width */
+  background-color: rgb(164, 148, 148); /* Light grayish background color */
+  padding: 10%; /* Add padding inside the container for spacing */
+}
+
+/* Styling for the third page section (#page3) */
+#page3 {
+  min-height: 100vh; /* At least full viewport height */
+  width: 100%; /* Full viewport width */
+  background-color: orange; /* Bright orange background */
+}
+
+/* Styling for all <h1> elements inside #page2 */
+#page2 h1 {
+  text-align: center; /* Center-align the text */
+  font-size: 3vw; /* Responsive font size based on viewport width */
+  line-height: 4vw; /* Line spacing for better readability */
+}
+
+/* Styling for <span> elements inside #page2 <h1> */
+#page2 h1 span {
+  font-family: pp woodland; /* Apply a custom font (pp woodland) to spans */
+}

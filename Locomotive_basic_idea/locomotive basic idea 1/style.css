@@ -1,0 +1,51 @@
+/* Apply margin, padding, and box-sizing to all elements for a consistent layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set html and body to take up the full viewport height and width */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Styles for page1: Full viewport height and width */
+#page1 {
+  height: 100vh;  /* Set height to 100% of the viewport */
+  width: 100%;    /* Set width to 100% of the viewport */
+  /* background-color: red;  Uncomment if you want a red background */
+}
+
+/* Styles for page2: Full viewport height and width */
+#page2 {
+  height: 100vh;  /* Set height to 100% of the viewport */
+  width: 100%;    /* Set width to 100% of the viewport */
+  /* background-color: blue;  Uncomment if you want a blue background */
+}
+
+/* Styles for image container inside page2 */
+#page2 #image-div {
+  height: 100%;         /* Set the height of the div to fill the entire page */
+  width: 35%;           /* Set the width of the div to 35% of the page width */
+  position: relative;   /* Allows positioning of the div relative to its normal position */
+  left: 50%;            /* Move the div horizontally to the center */
+  transform: translateX(-50%); /* Adjust the div’s position to exactly center it */
+  overflow: hidden;     /* Hide any content that overflows the div */
+}
+
+/* Styles for the image inside the image container */
+#image-div img {
+  height: 100%;         /* Set the image height to fill the div */
+  width: 100%;          /* Set the image width to fill the div */
+  object-fit: cover;    /* Ensure the image covers the area of the div without distortion */
+  scale: 1.2;           /* Slightly scale up the image by 1.2 times */
+}
+
+/* Styles for page3: Full viewport height and width */
+#page3 {
+  height: 100vh;  /* Set height to 100% of the viewport */
+  width: 100%;    /* Set width to 100% of the viewport */
+  /* background-color: greenyellow;  Uncomment if you want a greenyellow background */
+}

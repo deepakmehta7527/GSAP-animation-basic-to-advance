@@ -1,0 +1,23 @@
+<!--######## locomotive + GSAP  how to use-->
+
+//when `locomotive` use it `hijack` GSAP and 'gsap' not work so how it will work
+
+let we know step1 ->jab use krte hai "const scroll = new LocomotiveScroll({
+....,... }); tab `GSAP` kaam krne lgta hai but "eska use nhi krna hai" kyoki
+`scrollTrigger` kaam nhi krta hai let step2 kyo nhi krta hai kaam"
+ step 2->now
+search "locomotive scrollTrigger codepen" select first link and after open
+'site' then 'copy' javascript file code from "codepan site" and paste in all
+code inside "javascript file"
+cxv sa
+step3-> after paste inside "javascript file" now
+"remove" some part of code from "jha comment kiya huwa hai `RED PANEL' se
+`purple/green pannel` tk ab kuch change krna hai let see in'step 4'
+
+step 4->
+select ".smooth-scroll" and "ctrl+d" will select all ".smooth-scroll" now first
+"remove" all and change into "#main" jo bhi aapne diya huwa hai parent name as
+like "#main" let see "step 5"
+
+step 5 -> now "scrollTrigger" ka "scoller" main jo
+pehle se "body" tha uski jagah change krke ab parent rakh dena like -> "#main"

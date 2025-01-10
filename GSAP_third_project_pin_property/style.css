@@ -1,0 +1,45 @@
+/* Universal Reset: Apply margin, padding, and box-sizing rules to all elements */
+* {
+  margin: 0; /* Removes the default margin applied by the browser to all elements */
+  padding: 0; /* Removes the default padding applied by the browser to all elements */
+  box-sizing: border-box; /* Ensures that padding and borders are included in the element's total width and height */
+  font-family: "Gilroy"; /* Sets the font for the entire page to "Gilroy" */
+}
+
+/* Ensure html and body elements take up the full height and width of the browser window */
+html,
+body {
+  height: 100%; /* Ensures both html and body elements span the full height of the viewport */
+  width: 100%;  /* Ensures both html and body elements span the full width of the viewport */
+}
+
+/* Page 1 Styling */
+#page1 {
+  height: 100%; /* Ensures page 1 takes up the full height of the viewport */
+  width: 100%;  /* Ensures page 1 takes up the full width of the viewport */
+  background-color: rgb(191, 171, 144); /* Sets the background color of page 1 to a warm beige */
+}
+
+/* Page 2 Styling */
+#page2 {
+  height: 100%; /* Ensures page 2 takes up the full height of the viewport */
+  width: 100%;  /* Ensures page 2 takes up the full width of the viewport */
+  background-color: rgb(246, 143, 9); /* Sets the background color of page 2 to a bright orange */
+}
+
+/* Styling for the image inside page 2 */
+#page2 img {
+  height: 100%; /* Ensures the image takes up the full height of the parent container (page 2) */
+  width: 20%;   /* Sets the width of the image to 20% of the parent container's width */
+  object-fit: cover; /* Ensures the image covers the area while maintaining its aspect ratio, potentially cropping */
+  position: relative; /* Positions the image relative to its normal position (for the left translation) */
+  left: 50%; /* Moves the image to the center of its container horizontally */
+  transform: translateX(-50%); /* Corrects the positioning, shifting the image 50% of its width to the left, fully centering it */
+}
+
+/* Page 3 Styling */
+#page3 {
+  height: 100%; /* Ensures page 3 takes up the full height of the viewport */
+  width: 100%;  /* Ensures page 3 takes up the full width of the viewport */
+  background-color: rgb(165, 18, 116); /* Sets the background color of page 3 to a purple shade */
+}

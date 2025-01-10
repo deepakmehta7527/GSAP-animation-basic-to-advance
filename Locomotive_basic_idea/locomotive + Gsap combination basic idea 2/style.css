@@ -1,0 +1,50 @@
+/* Apply the following to all elements on the page */
+* {
+  margin: 0; /* Removes default margin from all elements */
+  padding: 0; /* Removes default padding from all elements */
+  box-sizing: border-box; /* Ensures padding and border are included in width and height calculations */
+}
+
+/* Set height and width for html and body to fill the entire viewport */
+html,
+body {
+  height: 100%; /* Set both html and body to take up the full height of the viewport */
+  width: 100%; /* Set both html and body to take up the full width of the viewport */
+}
+
+/* Page 1 styling */
+#page1 {
+  height: 100vh; /* Set the height of page1 to 100% of the viewport height */
+  width: 100%; /* Set the width of page1 to 100% of the parent container (the body) */
+  background-color: rgb(92, 87, 87); /* Set a gray-brown background color */
+  display: flex; /* Use Flexbox layout to center content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+/* Page 2 styling */
+#page2 {
+  height: 100vh; /* Set the height of page2 to 100% of the viewport height */
+  width: 100%; /* Set the width of page2 to 100% of the parent container */
+  background-color: blue; /* Set a blue background color */
+  display: flex; /* Use Flexbox layout to center content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+/* Page 3 styling */
+#page3 {
+  height: 100vh; /* Set the height of page3 to 100% of the viewport height */
+  width: 100%; /* Set the width of page3 to 100% of the parent container */
+  background-color: greenyellow; /* Set a yellow-green background color */
+  display: flex; /* Use Flexbox layout to center content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+/* Styling for the box element */
+#box {
+  height: 300px; /* Set the height of the box to 300px */
+  width: 300px; /* Set the width of the box to 300px */
+  background-color: brown; /* Set a brown background color for the box */
+}
